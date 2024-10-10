@@ -52,9 +52,44 @@
 
 
 ## 关于焊接：
+焊接顺序建议为：电源控制板->信号板
+
+优先焊接电源部分，电源部分测试通过后焊接其他部分，推荐使用热风枪加锡膏进行焊接
+
+
 
 # 软件说明
 
+
+项目的软件基于VScode+PIO，移植了LVGL作为UI界面，整体代码逻辑为标志位+前后台。
+
+
 ## 代码结构
+Exlink项目文件夹下包含以下几个文件：
+
+### .pio        （pio配置文件）
+### .vscode     （vscode配置文件）
+### build       （编译生成的文件）
+### include     （包含的头文件）
+### lib         （包含的库文件）
+- Arduino-CST816T-Library （CST816T库）
+- INA-master（INA226库）
+- lvgl（lvgl库）
+- TFT_eSPI（屏幕驱动库）
+### src（源文件）
+- main.cpp（主程序文件）
+- ui.c（ui文件）
+- ui.h（ui头文件）
+- main_png.c（图片数组文件）
+- event.c（事件回调文件）
+- event.h（事件回调头文件）
+### test        （测试文件）
+### .gitignore  （屏蔽文件）
+### my.csv      （ESP32S3内存分配表） 
+### platformio.ini（pio配置初始化文件）
 
 # 结构说明
+
+# 固件下载和烧录
+
+# 参考资料
