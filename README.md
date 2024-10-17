@@ -11,6 +11,7 @@
 
 # 产品实物图
 <img src="picture/IMG20241010232657.jpg" alt="图片描述" width="100%" height="auto">
+<img src="picture/IMG_20241017_233955.jpg" alt="图片描述" width="100%" height="auto">
 
 # 硬件说明
 ## 系统框图：
