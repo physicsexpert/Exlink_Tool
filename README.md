@@ -15,7 +15,8 @@
 
 # 硬件说明
 ## 系统框图：
-<img src="picture/QQ20241010-170726.png" alt="图片描述" width="100%" height="auto">
+<
+img src="picture/QQ20241010-170726.png" alt="图片描述" width="100%" height="auto">
 
 ## PCB结构：
 项目由两块PCB构成，电源控制板为四层板，信号板为两层板，采用分立叠板设计，通过1.27mm排针连接
@@ -107,11 +108,20 @@ Exlink项目文件夹下包含以下几个文件：
 本项目的三颗主控芯片（ESP32S3、RP2040、CH549）需要分别烧录固件：
 
 - ESP32S3烧录：首先需要在vscode安装platformio插件，使用vscode打开software文件夹中的Exlink文件，vscode会自动安装ESP32S3编译环境（时间可能会比较久），之后按住电源控制板上的boot按键插上板子的usbtypec接口，插上后松开boot按键，ESP32S3会加入下载模式，然后选择对应的com口，点击下载，下载完成后复位即可。
-- RP2040烧录：按住信号板上的boot键插入USB，电脑就能识别成U盘，然后把pico_sdk_sigrok.uf2固件复制进去即可。
-- CH549烧录：选中CH549的usb接口，使用WCHISPTool烧录固件即可。
+- RP2040烧录：按住信号板上的boot键插入USB，电脑就能识别成U盘，然后把pico_sdk_sigrok.uf2固件复制进去即可。具体使用方法参考:https://blog.csdn.net/qq1003155077/article/details/130841838?ops_request_misc=%257B%2522request%255Fid%2522%253A%252257B0188D-17C5-4AC1-99E7-A6468258EC39%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=57B0188D-17C5-4AC1-99E7-A6468258EC39&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-6-130841838-null-null.142^v100^pc_search_result_base6&utm_term=%E6%A0%91%E8%8E%93%E6%B4%BEpico%E9%80%BB%E8%BE%91%E5%88%86%E6%9E%90%E4%BB%AA&spm=1018.2226.3001.4187
+- CH549烧录：选中CH549的usb接口，使用WCHISPTool烧录固件即可。具体使用方法参考:https://oshwhub.com/hhh89/wch-link-v2
+- 如果需要使用无线下载器功能需要重新烧录ESP32S3固件。具体使用方法参考：https://yunsi.studio/wireless-proxy/online-flasher
+
+
+
+
 
 # 使用说明
-
+- 使用数控电源功能时需要配合支持PD协议的充电器连接双c口线使用。
+- 使用串口助手和无线串口时需要在串口发送端的串口数据末尾加上换行符“/n”。
+- 无线串口需要配合手机蓝牙调试器APP使用，用手机显示蓝牙串口信息。
+具体方法为：下载蓝牙调试器APP：https://gitee.com/xie-rongji/bt_mcu
+打开Exlink的无线串口功能，在蓝牙调试APP中选中Exlink，由于使用的是低功耗蓝牙，所以需要在APP中选择服务的uuid，之后点击连接打开调试界面即可看到串口发送的信息。
 
 
 
@@ -125,6 +135,9 @@ Exlink项目文件夹下包含以下几个文件：
 - 多功能调试器设计：https://github.com/physicsexpert/felini-firmware
 - 稚晖君peak项目：https://github.com/peng-zhihui/Peak
 - 显示屏相关设计：https://oshwhub.com/eedadada/monica
+- 基于ESP32S3的无线下载器：https://github.com/windowsair/wireless-esp8266-dap
+- ESP32S3固件在线烧录：https://yunsi.studio/wireless-proxy/online-flasher
+- 蓝牙调试器APP开源：https://gitee.com/xie-rongji/bt_mcu
 
 此外，很多同学也对本项目提出了宝贵的意见，在此也表示感谢：
 
