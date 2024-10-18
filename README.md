@@ -106,6 +106,16 @@ Exlink项目文件夹下包含以下几个文件：
 # 固件下载和烧录
 本项目的三颗主控芯片（ESP32S3、RP2040、CH549）需要分别烧录固件：
 
+- ESP32S3烧录：首先需要在vscode安装platformio插件，使用vscode打开software文件夹中的Exlink文件，vscode会自动安装ESP32S3编译环境（时间可能会比较久），之后按住电源控制板上的boot按键插上板子的usbtypec接口，插上后松开boot按键，ESP32S3会加入下载模式，然后选择对应的com口，点击下载，下载完成后复位即可。
+- RP2040烧录：按住信号板上的boot键插入USB，电脑就能识别成U盘，然后把pico_sdk_sigrok.uf2固件复制进去即可。
+- CH549烧录：选中CH549的usb接口，使用WCHISPTool烧录固件即可。
+
+# 使用说明
+
+
+
+
+
 # 参考资料
 本项目参考了很多开源资料，在此表示感谢：
 
