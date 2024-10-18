@@ -15,8 +15,7 @@
 
 # 硬件说明
 ## 系统框图：
-<
-img src="picture/QQ20241010-170726.png" alt="图片描述" width="100%" height="auto">
+<img src="picture/QQ20241010-170726.png" alt="图片描述" width="100%" height="auto">
 
 ## PCB结构：
 项目由两块PCB构成，电源控制板为四层板，信号板为两层板，采用分立叠板设计，通过1.27mm排针连接
