@@ -1,0 +1,3 @@
+通过百度网盘分享的文件：pulseview-0.5.0-git-7e5c839-install...
+链接：https://pan.baidu.com/s/1ldYhKOB7xADTvx_ZQvw2-A?pwd=1234 
+提取码：1234
