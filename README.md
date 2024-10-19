@@ -155,6 +155,7 @@ Exlink项目文件夹下包含以下几个文件：
 本项目参考了很多开源资料，在此表示感谢：
 
 - LVGL：https://github.com/lvgl
+- 正点原子LVGL开发指南：http://www.openedv.com/docs/index.html
 - RP2040逻辑分析仪项目：https://github.com/gusmanb/logicanalyzer
 - 基于CH549的DAPlink项目：https://oshwhub.com/hhh89/wch-link-v2
 - 多功能调试器设计：https://github.com/physicsexpert/felini-firmware
