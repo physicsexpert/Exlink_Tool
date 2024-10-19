@@ -10,8 +10,21 @@
 <img src="picture/QQ20241010-120226.png" alt="图片描述" width="100%" height="auto">
 
 # 产品实物图
+
+## 外观
 <img src="picture/IMG20241010232657.jpg" alt="图片描述" width="100%" height="auto">
+
+## 内部结构
 <img src="picture/IMG_20241017_233955.jpg" alt="图片描述" width="100%" height="auto">
+
+## 引脚功能界面
+<img src="picture/IMG20241019130035.jpg" alt="图片描述" width="100%" height="auto">
+
+## 数控电源界面
+<img src="picture/IMG20241019130024.jpg" alt="图片描述" width="100%" height="auto">
+
+## 无线串口界面
+<img src="picture/IMG20241019130008.jpg" alt="图片描述" width="100%" height="auto">
 
 # 硬件说明
 ## 系统框图：
@@ -57,7 +70,7 @@
 ## 关于焊接：
 焊接顺序建议为：电源控制板->信号板
 
-优先焊接电源部分，电源部分测试通过后焊接其他部分，推荐使用热风枪加锡膏进行焊接
+优先焊接电源部分，电源部分测试通过后焊接其他部分，推荐使用热风枪加锡膏进行焊接。
 
 
 
@@ -123,6 +136,14 @@ Exlink项目文件夹下包含以下几个文件：
 - 无线串口需要配合手机蓝牙调试器APP使用，用手机显示蓝牙串口信息。
 具体方法为：下载蓝牙调试器APP：https://gitee.com/xie-rongji/bt_mcu
 打开Exlink的无线串口功能，在蓝牙调试APP中选中Exlink，由于使用的是低功耗蓝牙，所以需要在APP中选择服务的uuid，之后点击连接打开调试界面即可看到串口发送的信息。
+<img src="picture/QQ20241019-131029.png" alt="图片描述" width="100%" height="auto">
+<img src="picture/QQ20241019-130351.png" alt="图片描述" width="50%" height="auto">
+<img src="picture/QQ20241019-130436.png" alt="图片描述" width="50%" height="auto">
+<img src="picture/QQ20241019-130507.png" alt="图片描述" width="50%" height="auto">
+
+
+
+
 
 
 
