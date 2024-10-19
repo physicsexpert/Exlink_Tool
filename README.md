@@ -27,6 +27,9 @@
 <img src="picture/IMG20241019130008.jpg" alt="图片描述" width="100%" height="auto">
 
 # 硬件说明
+## 排针引脚功能：
+<img src="picture/QQ20241019-145543.png" alt="图片描述" width="100%" height="auto">
+
 ## 系统框图：
 <img src="picture/QQ20241010-170726.png" alt="图片描述" width="100%" height="auto">
 
