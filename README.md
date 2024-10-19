@@ -136,7 +136,7 @@ Exlink项目文件夹下包含以下几个文件：
 - 无线串口需要配合手机蓝牙调试器APP使用，用手机显示蓝牙串口信息。
 具体方法为：下载蓝牙调试器APP：https://gitee.com/xie-rongji/bt_mcu
 打开Exlink的无线串口功能，在蓝牙调试APP中选中Exlink，由于使用的是低功耗蓝牙，所以需要在APP中选择服务的uuid，之后点击连接打开调试界面即可看到串口发送的信息。
-<img src="picture/QQ20241019-131029.png" alt="图片描述" width="100%" height="auto">
+<img src="picture/QQ20241019-131029.png" alt="图片描述" width="60%" height="auto">
 <img src="picture/QQ20241019-130351.png" alt="图片描述" width="50%" height="auto">
 <img src="picture/QQ20241019-130436.png" alt="图片描述" width="50%" height="auto">
 <img src="picture/QQ20241019-130507.png" alt="图片描述" width="50%" height="auto">
